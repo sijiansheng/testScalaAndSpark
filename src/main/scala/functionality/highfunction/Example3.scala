@@ -15,7 +15,4 @@ object Example3 {
 
   def interval(a: Int): Int => String = b => (a - b).toString
 
-  def main(args: Array[String]) {
-    println(sum(2)(4))
-  }
 }

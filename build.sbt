@@ -22,6 +22,8 @@ libraryDependencies += "edu" % "algs4" % "1.0"
 
 libraryDependencies += "net.sourceforge.htmlunit" % "htmlunit" % "2.15"
 
+libraryDependencies += "net.sourceforge.htmlunit" % "htmlunit" % "2.15"
+
 libraryDependencies += "com.codahale.metrics" % "metrics-core" % "3.0.1" excludeAll ExclusionRule("com.fasterxml.jackson.core")
 
 libraryDependencies += "org.apache.spark" % "spark-mllib_2.10" % "1.5.2" excludeAll(ExclusionRule("org.scala-lang", "scala-compiler"), ExclusionRule("commons-net", "commons-net"))
