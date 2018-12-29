@@ -6,7 +6,7 @@ version := "1.0"
 
 scalaVersion := "2.10.5"
 
-resolvers += "kunyanData" at "http://122.225.110.113:9023/nexus/content/groups/kunyanData/"
+resolvers += "rongyi" at "http://192.168.1.101:8081/nexus/content/repositories/rongyi-releases/"
 
 //scalacOptions += "-Ylog-classpath"
 
@@ -16,9 +16,9 @@ libraryDependencies += "com.typesafe.akka" % "akka-remote_2.10" % "2.1.4"
 
 libraryDependencies += "net.minidev" % "json-smart" % "1.0.9"
 
-libraryDependencies += "edu" % "stdlib" % "1.0"
-
-libraryDependencies += "edu" % "algs4" % "1.0"
+//libraryDependencies += "edu" % "stdlib" % "1.0"
+//
+//libraryDependencies += "edu" % "algs4" % "1.0"
 
 libraryDependencies += "net.sourceforge.htmlunit" % "htmlunit" % "2.15"
 
@@ -37,6 +37,10 @@ libraryDependencies += "com.fasterxml.jackson.core" % "jackson-core" % "2.4.4"
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.4.4"
 
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-annotations" % "2.4.4"
+
+// https://mvnrepository.com/artifact/com.github.scopt/scopt
+libraryDependencies += "com.github.scopt" %% "scopt" % "3.2.0"
+
 
 //storm项目引用 不在这个项目中测试了
 //libraryDependencies += "org.apache.storm" % "storm-core" % "0.9.1-incubating"

@@ -24,10 +24,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   * Usage: BroadcastTest [slices] [numElem] [broadcastAlgo] [blockSize]
   */
 object BroadcastTest {
-<<<<<<< HEAD
 
-=======
->>>>>>> 056fc063d03556a1f038453e6cb4d43423637cf8
   def main(args: Array[String]) {
 
     val bcName = if (args.length > 2) args(2) else "Http"
