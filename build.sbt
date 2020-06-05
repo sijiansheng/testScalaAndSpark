@@ -6,8 +6,7 @@ version := "1.0"
 
 scalaVersion := "2.10.5"
 
-resolvers += "rongyi" at "http://192.168.1.101:8081/nexus/content/repositories/rongyi-releases/"
-
+resolvers += "aliyun" at "https://maven.aliyun.com/repository/public/"
 //scalacOptions += "-Ylog-classpath"
 
 libraryDependencies += "com.typesafe.akka" % "akka-actor_2.10" % "2.1.4"
